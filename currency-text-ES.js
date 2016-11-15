@@ -1,4 +1,4 @@
-var currencyText = (function() {
+var currencyText = (function(window, undefined) {
     'use strict';
 
     var units = ['', 'UN', 'DOS', 'TRES', 'CUATRO', 'CINCO', 'SEIS', 'SIETE', 'OCHO', 'NUEVE'],
@@ -92,4 +92,4 @@ var currencyText = (function() {
     }
 
     return numText;
-})(currencyText);
+})(window);
