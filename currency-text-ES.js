@@ -27,7 +27,7 @@ var currencyText = (function(window, undefined) {
             return Units(unit);
         } else if (ten === 1) {
             if (unit > 5) {
-                return tens1[unit] + Units(unit);
+                return tens1[6] + Units(unit);
             }
 
             return tens1[unit];
